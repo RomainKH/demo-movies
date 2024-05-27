@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'NewsCycle';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/typo/NewsCycle-Regular.ttf);
+  }
+  @font-face {
+    font-family: 'NewsCycle';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(/typo/NewsCycle-Bold.ttf);
+  }
+
+  * {
+    font-family: 'NewsCycle', sans-serif;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+  scroll-behavior: smooth;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hidden-circle-bg {
+  clip-path: circle(0.0% at 50% 50%);
+}
+
+.display-circle-bg {
+  clip-path: circle(70.7% at 50% 50%);
+}
+
+.removeScroll {
+  overflow: hidden;
+  scroll-snap-type: none;
+}
+
+.cardPopular {
+  @apply w-[280px] md:w-[270px] lg:w-[340px] 2xl:w-[500px];
+}
+
+.section {
+  @apply snap-start h-full w-full py-20 lg:py-16 relative;
+}
+
+.active-movie {
+  @apply !opacity-100;
+}
+
+.movie-month-selection {
+  @apply opacity-50 pl-8 md:pl-[100px] xl:pl-[160px] flex flex-col gap-6;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.image-movie {
+  @apply w-[290px] sm:w-[250px] md:w-[280px] xl:w-[320px] top-1/2 transition-all duration-500 left-1/2 absolute h-auto object-cover;
+}
+
+.remove-image-movie {
+  @apply opacity-0;
+}
+
+.active-image-movie {
+  @apply scale-105;
+}
+
+.hide-image-movie {
+  @apply -translate-y-[120vh] rotate-45;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
