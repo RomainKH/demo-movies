@@ -15,15 +15,6 @@ function App() {
   useEffect(() => {
     container?.current?.addEventListener('scroll', () => {
       setScrollY(container?.current?.scrollTop)
-
-      // force stop scroll
-      // if ((container?.current?.scrollTop / window.innerHeight) % 1 != 0) {
-      //   console.log((container?.current?.scrollTop / window.innerHeight) % 1)
-      //   container?.current?.classList.add("removeScroll")
-      //   setTimeout(() => {
-      //     container?.current?.classList.remove("removeScroll")
-      //   }, 200);
-      // }
     })
   }, [container])
 
@@ -35,7 +26,7 @@ function App() {
       <section className="section bg-dark">
         <PopularMovies scrollValue={scrollY} />
       </section>
-      <section className="section !p-0 bg-blue-400">
+      <section className="section !p-0 bg-blue-400 overflow-hidden">
         <MovieDetails scrollValue={scrollY} container={container?.current} />
       </section>
       <section className="section !p-0">
