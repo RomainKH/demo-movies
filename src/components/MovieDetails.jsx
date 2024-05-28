@@ -81,7 +81,7 @@ export default function MovieDetails({ scrollValue, container }) {
         </div>
       </div>
       <div className="overflow-hidden w-full h-full block absolute top-0 left-0">
-        <div ref={textContainer} className="w-[246vw] pointer-events-none justify-start h-full z-10 flex flex-row items-start pt-[35vh]">
+        <div ref={textContainer} className="w-[246vw] transition-transform pointer-events-none justify-start h-full z-10 flex flex-row items-start pt-[35vh]">
           <div className="w-[82vw]">
             <div ref={subText1} className="movie-month-selection w-[270px] lg:w-[528px] !opacity-100">
               <p className="text-nearWhite text-left font-bold text-4xl xl:text-5xl lg:whitespace-nowrap uppercase">Monster <span className="font-regular text-lg">8.6/10</span></p>
