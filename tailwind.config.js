@@ -20,6 +20,7 @@ export default {
         "7xl": "7rem",
         "6xl": ["4.6rem", "1"],
         "sm": "0.875rem",
+        "xsm": "0.75rem",
       },
     },
   },

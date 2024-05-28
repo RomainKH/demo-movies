@@ -38,72 +38,72 @@ export default function PopularMovies({ scrollValue }) {
         moveType="freeScroll"
         renderOnlyVisible={true}
       >
-        <div className="relative mx-5">
+        <div className="relative mx-2 lg:mx-5">
           <img className="cardPopular select-none pointer-events-none" src={un} alt="1" />
-          <div className="absolute bottom-6 left-6 flex flex-row items-center gap-2">
-            <p className="uppercase text-xl  text-nearWhite font-bold">Zone of interest</p>
-            <span className="text-sm text-nearWhite">(2024)</span>
+          <div className="absolute bottom-4 left-2 lg:bottom-6 lg:left-6 flex flex-row items-center gap-2">
+            <p className="uppercase text-sm lg:text-lg xl:text-xl text-nearWhite font-bold">Zone of interest</p>
+            <span className="text-xsm lg:text-sm text-nearWhite">(2024)</span>
           </div>
         </div>
-        <div className="relative mx-5">
+        <div className="relative mx-2 lg:mx-5">
           <img className="cardPopular select-none pointer-events-none" src={deux} alt="2" />
-          <div className="absolute bottom-6 left-6 flex flex-row items-center gap-2">
-            <p className="uppercase text-xl  text-nearWhite font-bold">Priscilla</p>
-            <span className="text-sm text-nearWhite">(2024)</span>
+          <div className="absolute bottom-4 left-2 lg:bottom-6 lg:left-6 flex flex-row items-center gap-2">
+            <p className="uppercase text-sm lg:text-lg xl:text-xl text-nearWhite font-bold">Priscilla</p>
+            <span className="text-xsm lg:text-sm text-nearWhite">(2024)</span>
           </div>
         </div>
-        <div className="relative mx-5">
+        <div className="relative mx-2 lg:mx-5">
           <img className="cardPopular select-none pointer-events-none" src={trois} alt="3" />
-          <div className="absolute bottom-6 left-6 flex flex-row items-center gap-2">
-            <p className="uppercase text-xl  text-nearWhite font-bold">Dune: Part Two</p>
-            <span className="text-sm text-nearWhite">(2024)</span>
+          <div className="absolute bottom-4 left-2 lg:bottom-6 lg:left-6 flex flex-row items-center gap-2">
+            <p className="uppercase text-sm lg:text-lg xl:text-xl text-nearWhite font-bold">Dune: Part Two</p>
+            <span className="text-xsm lg:text-sm text-nearWhite">(2024)</span>
           </div>
         </div>
-        <div className="relative mx-5">
+        <div className="relative mx-2 lg:mx-5">
           <img className="cardPopular select-none pointer-events-none" src={quatre} alt="4" />
-          <div className="absolute bottom-6 left-6 flex flex-row items-center gap-2">
-            <p className="uppercase text-xl  text-nearWhite font-bold">Poor Things</p>
-            <span className="text-sm text-nearWhite">(2024)</span>
+          <div className="absolute bottom-4 left-2 lg:bottom-6 lg:left-6 flex flex-row items-center gap-2">
+            <p className="uppercase text-sm lg:text-lg xl:text-xl text-nearWhite font-bold">Poor Things</p>
+            <span className="text-xsm lg:text-sm text-nearWhite">(2024)</span>
           </div>
         </div>
-        <div className="relative mx-5">
+        <div className="relative mx-2 lg:mx-5">
           <img className="cardPopular select-none pointer-events-none" src={cinq} alt="5" />
-          <div className="absolute bottom-6 left-6 flex flex-row items-center gap-2">
-            <p className="uppercase text-xl  text-nearWhite font-bold">All of us strangers</p>
-            <span className="text-sm text-nearWhite">(2024)</span>
+          <div className="absolute bottom-4 left-2 lg:bottom-6 lg:left-6 flex flex-row items-center gap-2">
+            <p className="uppercase text-sm lg:text-lg xl:text-xl text-nearWhite font-bold">All of us strangers</p>
+            <span className="text-xsm lg:text-sm text-nearWhite">(2024)</span>
           </div>
         </div>
-        <div className="relative mx-5">
+        <div className="relative mx-2 lg:mx-5">
           <img className="cardPopular select-none pointer-events-none" src={six} alt="6" />
-          <div className="absolute bottom-6 left-6 flex flex-row items-center gap-2">
-            <p className="uppercase text-xl  text-nearWhite font-bold">American Fiction</p>
-            <span className="text-sm text-nearWhite">(2024)</span>
+          <div className="absolute bottom-4 left-2 lg:bottom-6 lg:left-6 flex flex-row items-center gap-2">
+            <p className="uppercase text-sm lg:text-lg xl:text-xl text-nearWhite font-bold">American Fiction</p>
+            <span className="text-xsm lg:text-sm text-nearWhite">(2024)</span>
           </div>
         </div>
-        <div className="relative mx-5">
+        <div className="relative mx-2 lg:mx-5">
           <img className="cardPopular select-none pointer-events-none" src={sept} alt="7" />
-          <div className="absolute bottom-6 left-6 flex flex-row items-center gap-2">
-            <p className="uppercase text-xl  text-nearWhite font-bold">The Society of the Snow</p>
-            <span className="text-sm text-nearWhite">(2023)</span>
+          <div className="absolute bottom-4 left-2 lg:bottom-6 lg:left-6 flex flex-row items-center gap-2">
+            <p className="uppercase text-sm lg:text-lg xl:text-xl text-nearWhite font-bold">The Society of the Snow</p>
+            <span className="text-xsm lg:text-sm text-nearWhite">(2023)</span>
           </div>
         </div>
-        <div className="relative mx-5">
+        <div className="relative mx-2 lg:mx-5">
           <img className="cardPopular select-none pointer-events-none" src={huit} alt="8" />
-          <div className="absolute bottom-6 left-6 flex flex-row items-center gap-2">
-            <p className="uppercase text-xl  text-nearWhite font-bold">Oppenheimer</p>
-            <span className="text-sm text-nearWhite">(2023)</span>
+          <div className="absolute bottom-4 left-2 lg:bottom-6 lg:left-6 flex flex-row items-center gap-2">
+            <p className="uppercase text-sm lg:text-lg xl:text-xl text-nearWhite font-bold">Oppenheimer</p>
+            <span className="text-xsm lg:text-sm text-nearWhite">(2023)</span>
           </div>
         </div>
-        <div className="relative mx-5">
+        <div className="relative mx-2 lg:mx-5">
           <img className="cardPopular select-none pointer-events-none" src={neuf} alt="9" />
-          <div className="absolute bottom-6 left-6 flex flex-row items-center gap-2">
-            <p className="uppercase text-xl  text-nearWhite font-bold">Spaceman</p>
-            <span className="text-sm text-nearWhite">(2024)</span>
+          <div className="absolute bottom-4 left-2 lg:bottom-6 lg:left-6 flex flex-row items-center gap-2">
+            <p className="uppercase text-sm lg:text-lg xl:text-xl text-nearWhite font-bold">Spaceman</p>
+            <span className="text-xsm lg:text-sm text-nearWhite">(2024)</span>
           </div>
         </div>
-        <div className="relative mx-5">
+        <div className="relative mx-2 lg:mx-5">
           <img className="cardPopular select-none pointer-events-none" src={dix} alt="10" />
-          <div className="absolute bottom-6 left-6 flex flex-row items-center gap-2">
+          <div className="absolute bottom-4 left-2 lg:bottom-6 lg:left-6 flex flex-row items-center gap-2">
             <p className="uppercase text-xl  text-dark font-bold ">Bottoms</p>
             <span className="text-sm text-dark">(2023)</span>
           </div>

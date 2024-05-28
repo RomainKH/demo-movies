@@ -47,7 +47,7 @@
 }
 
 .cardPopular {
-  @apply w-[280px] md:w-[270px] lg:w-[340px] 2xl:w-[500px];
+  @apply w-[220px] md:w-[270px] lg:w-[340px] 2xl:w-[500px];
 }
 
 .section {
